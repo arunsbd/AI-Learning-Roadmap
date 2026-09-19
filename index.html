@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Power User → AI Builder Roadmap</title>
+  <meta name="description" content="A practical roadmap from AI beginner to AI-native builder and systems thinker." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark">AI</div>
+        <div><strong>AI Roadmap</strong><span>Power User → Builder</span></div>
+      </div>
+      <nav class="nav" id="nav"></nav>
+      <div class="sidebar-bottom">
+        <div class="global-progress">
+          <div class="progress-meta"><span>Progress</span><strong id="progressPct">0%</strong></div>
+          <div class="progress-track"><div id="progressBar"></div></div>
+          <small><span id="progressCount">0</span> of 30 resources complete</small>
+        </div>
+        <button class="ghost-btn" id="themeBtn">☾ Dark mode</button>
+        <button class="ghost-btn danger" id="resetBtn">↺ Reset progress</button>
+      </div>
+    </aside>
+
+    <header class="mobile-header">
+      <button class="icon-btn" id="menuBtn" aria-label="Open navigation">☰</button>
+      <div class="mobile-brand">AI Roadmap</div>
+      <button class="icon-btn" id="mobileThemeBtn" aria-label="Toggle dark mode">☾</button>
+    </header>
+
+    <main class="main">
+      <section class="page active" data-page="overview" id="page-overview"></section>
+      <section class="page" data-page="path" id="page-path"></section>
+      <section class="page" data-page="courses" id="page-courses"></section>
+      <section class="page" data-page="skills" id="page-skills"></section>
+      <section class="page" data-page="projects" id="page-projects"></section>
+      <section class="page" data-page="glossary" id="page-glossary"></section>
+      <footer>Curated and links reviewed Sep 18, 2026. Course availability and pricing can change.</footer>
+    </main>
+  </div>
+
+  <div class="drawer-backdrop" id="backdrop"></div>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
