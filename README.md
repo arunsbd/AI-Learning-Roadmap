@@ -8,7 +8,8 @@ A friendly, interactive guide for moving from AI beginner to AI-native builder a
 - 30 curated learning resources with direct links
 - A–AH skills map and searchable glossary
 - A nine-project hands-on learning ladder
+- A 9-month, 36-week build-as-you-go curriculum with linked resources
 - Search, filters, dark mode, and mobile layout
-- Course checkboxes and local progress tracking
+- Separate course and curriculum checkboxes with local progress tracking
 
 
