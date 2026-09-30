@@ -1119,3 +1119,112 @@ window.ROADMAP_DATA = {
   },
   "reviewed": "Sep 18, 2026"
 };
+
+window.CURRICULUM_DATA = {
+  title: "AI Power User → AI Builder",
+  subtitle: "A 9-month, build-as-you-go curriculum for a working civil engineer.",
+  start: "October 5, 2026",
+  end: "June 13, 2027",
+  weeklyHours: "5 hours / week",
+  months: [
+    {
+      id: "m1", number: 1, title: "AI fluency that holds up", dates: "Oct 5 – Nov 1, 2026",
+      theme: "Use AI deliberately, verify it rigorously, and build a reliable research workflow.",
+      outcome: "A repeatable, cited AI research-brief workflow.", project: "Project 1 · Research workflow",
+      weeks: [
+        {id:"m1w1", title:"Useful, fallible prediction", learn:"Learn where LLMs help and where confident errors appear.", build:"Run three work-adjacent tasks and write a verification checklist.", checkpoint:"Explain when AI is useful, risky, or insufficient.", resources:[1,2]},
+        {id:"m1w2", title:"Prompting as specification", learn:"Practice giving role, context, constraints, examples, and output format.", build:"Create three reusable prompt templates for your workflow.", checkpoint:"One template consistently produces a usable first draft.", resources:[4]},
+        {id:"m1w3", title:"Context and verification", learn:"Separate source facts, assumptions, and requested output.", build:"Create a citation and assumptions log for one research task.", checkpoint:"You can trace every important claim back to a source.", resources:[3]},
+        {id:"m1w4", title:"Ship the research workflow", learn:"Turn the experiments into one repeatable procedure.", build:"Produce a one-page cited technical brief with a clear uncertainty note.", checkpoint:"Save the prompt, sources, checklist, and finished brief together.", resources:[6,7]}
+      ]
+    },
+    {
+      id: "m2", number: 2, title: "Web, Git, and browser tools", dates: "Nov 2 – Nov 29, 2026",
+      theme: "Learn enough HTML, CSS, JavaScript, and Git to ship a useful browser artifact.",
+      outcome: "A small deployed browser utility with a public repository.", project: "Project 2 · Browser utility",
+      weeks: [
+        {id:"m2w1", title:"How a web app works", learn:"Understand HTML structure, CSS layout, JavaScript behavior, and the browser runtime.", build:"Make a simple page with one input and one computed output.", checkpoint:"You can point to the HTML, CSS, and JavaScript responsibilities.", resources:[11,12]},
+        {id:"m2w2", title:"Git as a work journal", learn:"Use commits, branches, README files, and version history without ceremony.", build:"Create a repository and make small, descriptive commits.", checkpoint:"A stranger can understand how to run your project from the README.", resources:[13]},
+        {id:"m2w3", title:"JavaScript literacy", learn:"Read and modify variables, functions, conditionals, arrays, and event handlers.", build:"Add validation and a clearer result state to your page.", checkpoint:"You can change the behavior without copying code blindly.", resources:[12]},
+        {id:"m2w4", title:"Ship a browser utility", learn:"Polish the smallest version that solves one job.", build:"Deploy a calculator, converter, checklist, or data formatter.", checkpoint:"The live link works on desktop and mobile.", resources:[11,13]}
+      ]
+    },
+    {
+      id: "m3", number: 3, title: "APIs and external data", dates: "Nov 30 – Dec 27, 2026",
+      theme: "Connect an interface to reliable outside data without exposing secrets.",
+      outcome: "A public-data lookup tool with useful errors and clear provenance.", project: "Project 3 · API utility",
+      weeks: [
+        {id:"m3w1", title:"APIs and JSON", learn:"Understand requests, responses, endpoints, parameters, status codes, and JSON.", build:"Call one public API and inspect its response in a client.", checkpoint:"You can explain the request and locate the field you need.", resources:[14]},
+        {id:"m3w2", title:"Hands-on API requests", learn:"Practice GET requests, query parameters, and basic response handling.", build:"Prototype a lookup flow in Postman or an equivalent tool.", checkpoint:"You can reproduce a successful request from scratch.", resources:[15]},
+        {id:"m3w3", title:"Keys, OAuth, webhooks", learn:"Know the difference between public data, secrets, auth, and event callbacks.", build:"Store a non-sensitive configuration value outside your source code.", checkpoint:"You know why a private key cannot live in browser JavaScript.", resources:[15,12]},
+        {id:"m3w4", title:"Ship an API utility", learn:"Design graceful states for waiting, missing data, and failure.", build:"Publish a public-data lookup or inspection tool.", checkpoint:"The tool labels its data source and handles bad input.", resources:[14,15]}
+      ]
+    },
+    {
+      id: "m4", number: 4, title: "Databases and structured work", dates: "Dec 28, 2026 – Jan 24, 2027",
+      theme: "Move from scattered files to a small, queryable source of truth.",
+      outcome: "A structured tracker backed by a hosted database.", project: "Project 4 · Data tracker",
+      weeks: [
+        {id:"m4w1", title:"SQL essentials", learn:"Model tables, rows, keys, filters, sorting, and aggregates.", build:"Write queries against a small sample dataset.", checkpoint:"You can answer a practical question with a SELECT query.", resources:[16]},
+        {id:"m4w2", title:"Relationships and joins", learn:"Connect related tables and recognize when a spreadsheet is no longer enough.", build:"Model a two-table dataset and query it with a join.", checkpoint:"You can explain the primary key and relationship in your model.", resources:[16]},
+        {id:"m4w3", title:"Hosted database basics", learn:"Use Supabase or an equivalent service for tables, auth concepts, and access rules.", build:"Create a hosted table and load a small real dataset.", checkpoint:"You can safely read and update test data from your app.", resources:[17]},
+        {id:"m4w4", title:"Ship a data tracker", learn:"Make the interface serve a single operational question.", build:"Publish a standards, permit, project, or learning tracker.", checkpoint:"You can add, find, and update records without opening a spreadsheet.", resources:[16,17]}
+      ]
+    },
+    {
+      id: "m5", number: 5, title: "Full-stack SaaS fundamentals", dates: "Jan 25 – Feb 21, 2027",
+      theme: "Understand the moving pieces behind a small, deployed web product.",
+      outcome: "A production-shaped mini SaaS blueprint and deployed prototype.", project: "Project 5 · Mini SaaS blueprint",
+      weeks: [
+        {id:"m5w1", title:"The SaaS system", learn:"Map frontend, backend, database, auth, storage, and deployment.", build:"Draw the architecture for a tiny product you would actually use.", checkpoint:"You can name the responsibility of each layer.", resources:[18,19]},
+        {id:"m5w2", title:"Cloud environments", learn:"Distinguish local development, staging, production, domains, and environment variables.", build:"Deploy a small app update through a repeatable path.", checkpoint:"You can diagnose whether a problem is code, config, or deployment.", resources:[20]},
+        {id:"m5w3", title:"Product thinking", learn:"Define one user, one job, one success measure, and one non-goal.", build:"Write a one-page mini product brief and simple user flow.", checkpoint:"Your feature list has been cut to a believable first version.", resources:[18]},
+        {id:"m5w4", title:"Ship a SaaS blueprint", learn:"Connect product intent to technical choices.", build:"Publish a clickable or working mini SaaS prototype with documentation.", checkpoint:"A new user can try the core flow without your help.", resources:[18,19,20]}
+      ]
+    },
+    {
+      id: "m6", number: 6, title: "Workflow automation", dates: "Feb 22 – Mar 21, 2027",
+      theme: "Automate bounded, repeatable work with a human review point.",
+      outcome: "A dependable digest or tracker automation.", project: "Project 6 · Automation",
+      weeks: [
+        {id:"m6w1", title:"Workflow basics", learn:"Break a manual process into trigger, transform, decision, output, and review.", build:"Map one recurring personal or professional workflow.", checkpoint:"You can identify the safest point for human approval.", resources:[21]},
+        {id:"m6w2", title:"API-powered workflows", learn:"Pass structured data between steps and handle failures deliberately.", build:"Create an automation that collects and formats information.", checkpoint:"The workflow gives a useful error instead of silently failing.", resources:[21]},
+        {id:"m6w3", title:"AI in a bounded role", learn:"Use an LLM for classification, drafting, or extraction—not unreviewed judgment.", build:"Add an AI step with explicit input and output schema.", checkpoint:"You can inspect and override every consequential output.", resources:[21]},
+        {id:"m6w4", title:"Ship the digest automation", learn:"Make the outcome useful enough to keep using weekly.", build:"Launch a research, regulation, project, or inbox digest automation.", checkpoint:"It saves time for two consecutive runs.", resources:[21]}
+      ]
+    },
+    {
+      id: "m7", number: 7, title: "AI APIs, RAG, and evaluation", dates: "Mar 22 – Apr 18, 2027",
+      theme: "Build AI features that answer from retrieved sources and show their evidence.",
+      outcome: "A small, cited public-standards navigator.", project: "Project 7 · Public standards RAG",
+      weeks: [
+        {id:"m7w1", title:"Call an AI API", learn:"Send structured prompts and receive predictable outputs from an AI model.", build:"Make one server-side AI call with logging and a strict output format.", checkpoint:"You can explain cost, latency, and failure modes at a high level.", resources:[23,22]},
+        {id:"m7w2", title:"Embeddings and retrieval", learn:"Understand chunks, embeddings, similarity search, and citations.", build:"Index a small public document set for retrieval.", checkpoint:"A query returns relevant source passages, not just a model answer.", resources:[24]},
+        {id:"m7w3", title:"Constrain and evaluate", learn:"Design refusal, citation, and uncertainty behavior for unsupported questions.", build:"Write a ten-question evaluation set and inspect failures.", checkpoint:"You can distinguish retrieval failure from answer-generation failure.", resources:[22]},
+        {id:"m7w4", title:"Ship the standards navigator", learn:"Keep scope narrow and sources public.", build:"Publish a source-grounded Q&A prototype with citations.", checkpoint:"Every answer links back to the retrieved evidence.", resources:[22,24]}
+      ]
+    },
+    {
+      id: "m8", number: 8, title: "Tool calling and MCP", dates: "Apr 19 – May 16, 2027",
+      theme: "Give an AI assistant controlled access to deterministic tools.",
+      outcome: "A small MCP server that exposes safe engineering utilities.", project: "Project 8 · CivilCalc MCP",
+      weeks: [
+        {id:"m8w1", title:"Tool calling", learn:"Define tools with clear inputs, outputs, and guardrails.", build:"Design a deterministic calculator or lookup function.", checkpoint:"The same input produces the same inspectable result.", resources:[22]},
+        {id:"m8w2", title:"MCP concepts", learn:"Understand servers, clients, tools, resources, prompts, and permissions.", build:"Run an example MCP server locally and inspect one tool call.", checkpoint:"You can explain what MCP standardizes and what it does not.", resources:[26,25,28]},
+        {id:"m8w3", title:"Build CivilCalc", learn:"Translate a real calculation or reference task into narrow functions.", build:"Implement a minimal MCP server with two or three safe tools.", checkpoint:"Inputs are validated and results include units or assumptions.", resources:[26]},
+        {id:"m8w4", title:"Ship an MCP demo", learn:"Document installation, safe use, and limitations.", build:"Record or publish a working MCP demonstration.", checkpoint:"Another person can connect the client and exercise a tool.", resources:[26,28]}
+      ]
+    },
+    {
+      id: "m9", number: 9, title: "Agents and production thinking", dates: "May 17 – Jun 13, 2027",
+      theme: "Design bounded agentic workflows that are observable, testable, and safe to use.",
+      outcome: "A documented Civil Research Copilot with explicit limits and evaluation evidence.", project: "Project 9 · Bounded research copilot",
+      weeks: [
+        {id:"m9w1", title:"Agent design", learn:"Separate goals, tools, state, planning, and stopping conditions.", build:"Write a bounded agent specification for one research task.", checkpoint:"You can state exactly what the agent must not decide.", resources:[29]},
+        {id:"m9w2", title:"Evals and traces", learn:"Use test cases, logs, and structured review to improve reliability.", build:"Create an evaluation sheet and inspect at least five runs.", checkpoint:"You can identify the failure pattern, not just a bad answer.", resources:[22]},
+        {id:"m9w3", title:"Security and deployment", learn:"Review data boundaries, permissions, secrets, and operational ownership.", build:"Add a safety checklist and deployment notes to your project.", checkpoint:"You can explain how sensitive data is kept out of the workflow.", resources:[22,20]},
+        {id:"m9w4", title:"Ship the bounded copilot", learn:"Package the project as a useful demonstration, not an overclaim.", build:"Publish the copilot, README, limitations, and evaluation results.", checkpoint:"You have a portfolio story showing judgment as well as technical skill.", resources:[29,22]}
+      ]
+    }
+  ]
+};
